@@ -1,0 +1,90 @@
+.back {
+    position: absolute;
+    right: 8%;
+    top: 270px;
+  }
+  .single-page {
+    position: relative;
+  }
+  .back{
+    padding: 10px 20px;
+    background-color: #31b675;
+    color: white;
+    font-weight: 400;
+    transition: 0.5s;
+    background: rosybrown;
+    margin-right: 300px;
+  }
+  .main-content p {
+    margin: 10px 0 20px 0;
+    color: grey;
+    margin-left: 25px;
+  }
+  .main-content .para p {
+    margin-right: 10px;
+    
+  }
+  .main-content h1 {
+    font-size: 30px;
+  }
+  .main-content img {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .imagegrid1 {
+      width: 50px;
+      height: 50px;
+  }
+  
+  article .box {
+    background-color: #31b675;
+    padding: 30px;
+    color: white;
+    margin-top: 100px;
+  }
+  article .box h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  article .box2 {
+    margin-top: 40px;
+    background: url("../ass/Resort1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  article .box2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 180px;
+    width: 100%;
+  }
+  article p {
+    font-size: 14px;
+    line-height: 25px;
+    
+  }
+  article .box2 p {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+    .single-page .flex {
+      flex-direction: column;
+    }
+  }
+
+   
+  

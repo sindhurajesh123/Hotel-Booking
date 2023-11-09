@@ -1,0 +1,110 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
+    
+    color: blue;
+}
+.promo{
+    width:100%;
+    margin:4rem 0;
+    margin-bottom: 4rem;
+    background: aquamarine;
+    border: 3px solid blue;
+    justify-content: center;
+    text-align:center ;
+    width: 650px;
+    height: 600px;
+    margin: auto;
+
+}
+.promo h4{
+    font-size: 1.6rem;
+    color:var(--primary-dark);
+}
+.promo.timer{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+.promo .offers{
+    background:blue;
+    color: aqua;
+    padding:.4rem 0;
+}
+.search  form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    margin: auto;
+    color: brown;
+    
+ 
+}
+
+.search input,select{
+      display: flex;
+      flex-direction: row;
+     font-size: 1rem;
+     font-family: "poppins",sans-serif;
+     outline: none;
+     color:blueviolet;
+}
+
+.label{
+    color: brown;
+    display: flex;
+    flex-direction:row;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%; 
+   
+    padding: 5px; 
+  
+  
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    width: 40%; 
+    height: 100%; 
+   
+    padding: 5px; 
+ 
+    
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    width: 40%; 
+    height: 100%; 
+ 
+    padding: 5px; 
+   
+   
+}
+
+
+
+
+
+
+@media screen and (max-width:9px){
+   
+    .search.right{
+        max-width:100%
+    }
+    .search form{
+        width: 100%;
+    }
+    .search.date{
+        flex-direction: column;
+    }
+}

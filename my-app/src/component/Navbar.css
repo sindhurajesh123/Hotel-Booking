@@ -1,0 +1,204 @@
+.navbar{
+    background-color: rgb(22, 9, 80);
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 10;
+  height: 20vh;
+    line-height:10vh;
+    
+}
+
+ 
+    
+
+nav ul li {
+    display: inline-block;
+    transition: all 0.5s ease-in;
+    margin:0 30px 0 0;
+    
+    
+}
+nav ul li a {
+font-weight: 800;
+    font-size: 15px;
+    letter-spacing:2px;
+    transition: all 0.5s ease-in-out;
+    opacity:0.8;
+    color:#00d5ff;
+    
+    
+}
+
+nav ul li a:hover {
+    color:white;
+    }
+.nav-links-mobile {
+    display: none;
+}
+.menu-icon  {
+    display:none;
+}
+nav i{
+    color: white;
+}
+.login-area a {
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 13px;
+    color: white;
+    
+}
+.login-area i {
+    margin: 0 5px 0 15px;
+    font-size: 15px;
+    color:white;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .login-area{
+        position: absolute;
+        right:20px;
+    }
+    .navbar{
+        overflow:visible;
+       position: relative;
+        text-align: center;
+        
+    }
+    nav ul {
+        display: block;
+        width:100%;
+        height:90vh;
+        position: absolute;
+        top: 80px;
+        left:-100%;
+        opacity: 1;
+        transition:all 0.5s ease;
+    }
+
+nav ul li {
+
+    
+    
+    display: block;
+        margin-top: 70px;
+        
+    
+}
+  nav ul.active {
+    background:radial-gradient(rgb(9, 69, 129),rgb(9, 49, 15));
+    height:auto;
+    left: 0;
+    top:62px;
+    opacity:1;
+    transition: 0.5s;
+    z-index:100;
+}
+nav ul li a {
+    margin: 10px;
+    font-weight: 400;
+    color:#00d5ff
+}
+.menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left:20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.fa-times{
+    font-size: 2rems;
+}
+
+}
+/*------------header-----------*/
+
+    
+header{
+    padding: 5px;
+    background-color:transparent;
+    position: fixed;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+    
+   
+
+header.box{
+    margin:0 0 0 30px;
+  
+   
+}
+header a{
+    font-size:13px;
+    color:#00d5ff;
+    margin-left: 2px;
+    
+    
+}
+header i {
+font-size:40px;
+color:blue;
+margin-left: 15px;
+
+
+}
+
+header .text{
+    
+    margin-top:10px;
+    margin-left: 20px;
+    
+}
+header h5{
+   font-size: 15px;
+    color:#00d5ff;
+
+    
+}
+
+    
+header h5{
+    line-height: 10px;
+    margin-right: 5px;
+}
+@media screen and (max-width:768px) {
+    header.container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .contact{
+      justify-content: center;
+      align-items: center;
+    }
+    header a {
+        font-size: 10px;
+    }
+    header i{
+        font-size: 16px;
+        margin-right: 10px;
+         margin-bottom:30px;
+    }
+    header h5{
+        font-size: 10px;
+        
+    }
+
+      
+    
+    
+
+    
+}
+
+
+
+

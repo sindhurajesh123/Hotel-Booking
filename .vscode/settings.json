@@ -1,0 +1,9 @@
+{
+    "github.gitAuthentication": false,
+    "debug.javascript.resourceRequestOptions": {
+
+    },
+    "workbench.experimental.share.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": false
+}
