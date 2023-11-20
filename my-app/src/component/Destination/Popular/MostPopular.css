@@ -8,7 +8,7 @@
     content: "";
     width: 100%;
     height: 40vh;
-    background: #eaf8f1;
+    background:#f8edea;
     position: absolute;
     top: 0;
     left: 0;
@@ -58,7 +58,7 @@
   .popular .cards h2 {
     font-weight: 500;
     font-size: 20px;
-    color: #31b675;
+    color:#31b675;
     position: relative;
     margin-bottom: 30px;
   }
@@ -110,6 +110,7 @@
   }
   .popular .control-btn .prev i,
   .popular .control-btn .next i {
+  
     background: rgba(0, 0, 0, 0.05);
     color: black;
     font-size: 15px;

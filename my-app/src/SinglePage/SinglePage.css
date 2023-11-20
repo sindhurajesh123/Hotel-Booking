@@ -39,8 +39,9 @@
   }
   
   article .box {
-    background-color: #31b675;
-    padding: 30px;
+    background-color:#31b675;
+     padding: 30px;
+     height: 350px;
     color: white;
     margin-top: 100px;
   }

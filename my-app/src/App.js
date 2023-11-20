@@ -32,8 +32,7 @@ function  App(){
    <Switch>
      
       <Route path='/' exact component={Home}></Route>
-      <Route path='/hotel-booking' exact component={Home}></Route>
-      <Route path='/About' exact component={About}></Route>
+     <Route path='/About' exact component={About}></Route>
       <Route path='/Gallery' exact component={Gallery}></Route>
       <Route path='/Destination' exact component={Destination}></Route>
       <Route path='/SinglePage/:id'exact component={SinglePage}></Route>
