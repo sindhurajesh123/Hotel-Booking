@@ -34,7 +34,7 @@ const Home=()=>{
                 <input type="number" placeholder="Rooms"/>
             </div>
                 <div  className="submit">
-                <Link to='/Destination' >Submit</Link>
+                <Link to='/Destination'>Submit</Link>
               </div>      
        
             </form>

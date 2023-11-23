@@ -43,9 +43,10 @@
    .submit a {
 display: flex;
 
-    color: rgb(38, 255, 0)!important;
+    color: rgb(170, 0, 255)!important;
+    justify-content: center;
     text-align: center;
-     background-color: #fff;
+     background-color: hsl(180, 97%, 55%);
       margin: 15px;
       width: 28%;
       font-size: 24px;
